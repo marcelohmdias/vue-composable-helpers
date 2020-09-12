@@ -1,3 +1,6 @@
 {
-  "*.{js,ts,vue}": []
+  "*.ts": [
+    "yarn lint --fix",
+    "yarn test --bail --findRelatedTests --ci"
+  ]
 }
