@@ -1,6 +1,6 @@
 {
   "name": "vue-composable-helpers",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Vue 3 composable api helpers",
   "license": "MIT",
   "module": "dist/vue-composable.esm.js",
