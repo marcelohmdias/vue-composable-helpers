@@ -6,11 +6,13 @@
     "lib": ["DOM", "ESNext"],
     "strict": true,
     "esModuleInterop": true,
+    "declaration": true,
     "incremental": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["dist", "node_modules"]
+  "exclude": ["dist", "node_modules"],
+  "include": ["src"]
 }
